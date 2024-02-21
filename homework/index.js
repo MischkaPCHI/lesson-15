@@ -32,7 +32,7 @@ console.log(playersWithGoals);
 //              Задание 2
 
 
-const filterOfHeight = players.filter((obj) => {return obj.height >= 180});
+const filterOfHeight = players.filter((obj) => {return obj.height >= 180 && obj.weight <80});
 
 console.log(filterOfHeight);
 
